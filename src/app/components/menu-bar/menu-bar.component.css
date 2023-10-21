@@ -1,0 +1,106 @@
+.banner__sony {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+
+}
+.banner__sony img {
+  width: 90px;
+  height: 30px;
+  padding: 5px;
+
+  justify-content: flex-end;
+
+}
+.menu-bar__container{
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+
+  background-color: #ffffff;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2em;
+}
+.menu-bar__left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+}
+.menu-bar__logo img {
+  width: 38px;
+  height: 38px;
+  margin: 1em
+}
+.menu-bar__item ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  list-style: none;
+  background-color: transparent;
+
+}
+.menu-bar__item ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: .8em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+
+}
+.menu-bar__item ul li a:hover {
+  color: dodgerblue;
+  transition: all 0.3s ;
+}
+
+.menu-bar__container ul li a {
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+}
+.menu-bar__right {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  background-color: transparent;
+}
+.menu-bar__login__btn {
+  color: white;
+  background-color: dodgerblue;
+  font-size: 1em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+
+}
+
+.menu-bar__login__btn:hover {
+  background-color: rgb(5, 70, 135);
+  transition: all 0.3s;
+}
+
+.menu-bar__search button svg {
+  background-color: white;
+
+}
+
+.menu-bar__search button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
